@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+#container {
+  font-size: x-small;
+}
+#header {
+  font-size: x-small;
+  background-color: #007cbd;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+#content {
+  font-size: x-small;
+}
+#footer {
+  font-size: x-small;
+  background-color: #007cbd;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+a:link {
+  color: #007cbd;
+}
+a:visited {
+  color: #007cbd;
+}
+.member {
+  background-color: #e5ecf9;
+  padding: 3px;
+}
+.non-member {
+  padding: 3px;
+}
+.top-navi {
+  text-align: center;
+  padding: 3px;
+}
+.auth-form {
+  background-color: #e5ecf9;
+  padding: 3px;
+}
+.auth-error {
+  color: #f00;
+  font-weight: bold;
+  padding: 3px;
+}
+.information {
+  padding: 3px;
+}
+.icon {
+  float: left;
+  margin:3px 3px 0;
+}
+.clear {
+  clear: both;
+}
+.category {
+  background-color: #ddd;
+  font-size: medium;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.user-stats {
+  padding: 3px;
+}
+.message-error {
+  background-color: #f00;
+  color: #fff;
+  padding: 3px;
+}
+.message-prompt {
+  padding: 0 3px 3px 3px;
+}
+.message-form {
+  background-color: #fbfbdd;
+  padding: 5px;
+}
+.sender {
+  font-size: x-small;
+}
+.message-even {
+  background-color: #ddd;
+  padding: 0 0 6px;
+}
+.message-odd {
+  background-color: #fff;
+  padding: 0 0 6px;
+}
+.message-body {
+  padding: 3px;
+}
+.datetime {
+  text-align: right;
+  margin: 2px 2px 0 0 ;
+}
+.like {
+  font-weight: bold;
+  padding: 5px;
+}
+.message-navi {
+  text-align: right;
+  margin: 2px 2px 0 0;
+}
+.refresh {
+  background-color: #e5ecf9;
+  padding: 5px;
+  text-align: center;
+}
+.more {
+  background-color: #e5ecf9;
+  padding: 5px;
+  text-align: center;
+}
+.feed-select {
+  background-color: #007cbd;
+  color: #fff;
+  padding: 5px;
+}
+.feed-select a {
+  color: #fff;
+}
+.type-select {
+  background-color: #fbfbdd;
+  text-align: center;
+  padding: 5px;
+}
+.group-list {
+  padding: 5px;
+}
+.gnavi {
+  background-color: #e5ecf9;
+  padding: 5px;
+}
+.action {
+  text-align: right;
+  padding: 3px;
+}
+.user {
+  margin: 3px;
+}
+.group {
+  margin: 3px;
+}
+.access-error {
+  background-color: #e5ecf9;
+  font-weight: bold;
+  padding: 3px;
+}

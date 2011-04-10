@@ -1,0 +1,7 @@
+/app/tmp/*
+/.buildpath
+/.project
+/.settings/
+/app/config/yammer.php
+/app/config/core.php
+/app/webroot/img/icons/*

@@ -1,0 +1,6 @@
+[submodule "app/plugins/datasources"]
+	path = app/plugins/datasources
+	url = https://github.com/cakephp/datasources.git
+[submodule "app/plugins/pear_local"]
+	path = app/plugins/pear_local
+	url = https://github.com/k1LoW/pear_local.git

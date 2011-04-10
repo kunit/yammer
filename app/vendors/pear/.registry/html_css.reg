@@ -1,0 +1,221 @@
+a:22:{s:7:"attribs";a:6:{s:15:"packagerversion";s:5:"1.8.1";s:7:"version";s:3:"2.0";s:5:"xmlns";s:35:"http://pear.php.net/dtd/package-2.0";s:11:"xmlns:tasks";s:33:"http://pear.php.net/dtd/tasks-1.0";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:18:"xsi:schemaLocation";s:147:"http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd";}s:4:"name";s:8:"HTML_CSS";s:7:"channel";s:12:"pear.php.net";s:7:"summary";s:84:"Provides a simple interface for validate, handle and generate cascading style sheets";s:11:"description";s:573:"HTML_CSS provides a simple interface to handle stylesheets declaration.
+It is completely standards compliant, and has some great features:
+* Simple OO interface to CSS definitions
+* Can parse existing CSS (string or file)
+* Output to
+    - Inline stylesheet declarations
+    - Document internal stylesheet declarations
+    - Standalone stylesheet declarations
+    - Array of definitions
+    - File
+* Can validate contents with the WC3 CSS Validator Web Service
+
+In addition, it shares the following with HTML_Common based classes:
+* Indent style support
+* Line ending style";s:4:"lead";a:2:{i:0;a:4:{s:4:"name";s:14:"Klaus Guenther";s:4:"user";s:7:"thesaur";s:5:"email";s:22:"klaus@capitalfocus.org";s:6:"active";s:2:"no";}i:1;a:4:{s:4:"name";s:15:"Laurent Laville";s:4:"user";s:6:"farell";s:5:"email";s:24:"pear@laurent-laville.org";s:6:"active";s:2:"no";}}s:4:"date";s:10:"2009-07-04";s:4:"time";s:8:"10:28:50";s:7:"version";a:2:{s:7:"release";s:5:"1.5.4";s:3:"api";s:5:"1.5.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:571:"Changes
+- createAtRule signature changed : add optional duplicates parameter
+
+Bug fixes
+- 16354 : Does not parse multiple simple At-rules properly
+- 16355 : Simple at rules nested within other at rules are reported as top level at rules
+- 16357 : Multiple equal complex at rules not parsed correctly
+- 16358 : Multiple media types on media at rule not parsed correctly
+- 16359 : Multiple selectors on a single rule inside a complex at rule not properly parsed
+- 16360 : Multiple selectors inside a complex at rule not properly parsed
+
+Last action as active package leader";s:8:"contents";a:1:{s:3:"dir";a:2:{s:7:"attribs";a:2:{s:14:"baseinstalldir";s:4:"HTML";s:4:"name";s:1:"/";}s:4:"file";a:27:{i:0;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"4c81a521793091a32c447c06f6b1c097";s:4:"name";s:13:"CSS/Error.php";s:4:"role";s:3:"php";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}}i:1;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"1543a31121e351f8cf0eb1c5bc5e4685";s:4:"name";s:25:"examples/CSS_Advanced.php";s:4:"role";s:3:"doc";}}i:2;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"bbd42307855c479fc167bcf431a1749b";s:4:"name";s:30:"examples/CSS_DisplayOnline.php";s:4:"role";s:3:"doc";}}i:3;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"269cc7e3f96bcf024e7331ee52776055";s:4:"name";s:34:"examples/css_errorstack_custom.php";s:4:"role";s:3:"doc";}}i:4;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"b15d27c57162eed9139799f9046f73ea";s:4:"name";s:34:"examples/css_errorstack_logger.php";s:4:"role";s:3:"doc";}}i:5;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"d5063c0b92e4408932d8a150a33d8354";s:4:"name";s:29:"examples/css_error_custom.php";s:4:"role";s:3:"doc";}}i:6;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"0c179d0d57fbdffd012f3493ac580c0b";s:4:"name";s:29:"examples/css_error_ignore.php";s:4:"role";s:3:"doc";}}i:7;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"c8dc6b11406facb7ed0f19c8f01f753f";s:4:"name";s:29:"examples/css_error_logger.php";s:4:"role";s:3:"doc";}}i:8;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"44342f3bd3e570e58e18ce5f6c854e19";s:4:"name";s:27:"examples/CSS_grepStyles.php";s:4:"role";s:3:"doc";}}i:9;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"03c48c69c2565b088ea58d96dbfa13cf";s:4:"name";s:25:"examples/CSS_InHeader.php";s:4:"role";s:3:"doc";}}i:10;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"1036574f501c154361e76f13209f6694";s:4:"name";s:23:"examples/CSS_Inline.php";s:4:"role";s:3:"doc";}}i:11;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"749d8d20488cdad8244bee6b4f9733cc";s:4:"name";s:23:"examples/CSS_Logger.php";s:4:"role";s:3:"doc";}}i:12;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"2308abf78460db031f0fade6022b2a08";s:4:"name";s:26:"examples/CSS_parseData.php";s:4:"role";s:3:"doc";}}i:13;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"08facf95c0f17e00fc016d3d59c80c4a";s:4:"name";s:36:"examples/CSS_req12194_atrule_api.php";s:4:"role";s:3:"doc";}}i:14;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"f1705159532bda8ee3ce3796371cf23a";s:4:"name";s:39:"examples/CSS_req12194_atrule_parser.php";s:4:"role";s:3:"doc";}}i:15;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"187c9e50f3595429370cdd2308b0a145";s:4:"name";s:27:"examples/CSS_Stylesheet.php";s:4:"role";s:3:"doc";}}i:16;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"50095673510865cca6c36e7b577334ed";s:4:"name";s:25:"examples/CSS_validate.php";s:4:"role";s:3:"doc";}}i:17;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"41a35f74b30f939138e06929793208c5";s:4:"name";s:18:"tests/AllTests.php";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}}i:18;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"13d42193dfa686ca4524677650dbe7f2";s:4:"name";s:33:"tests/HTML_CSS_TestSuite_Bugs.php";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}}i:19;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"2e66fc3c677ff212a847416d2ab8a2f2";s:4:"name";s:35:"tests/HTML_CSS_TestSuite_Output.php";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}}i:20;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"f2fc90f4afde8c76f5a4e0e9a94a94f6";s:4:"name";s:37:"tests/HTML_CSS_TestSuite_Standard.php";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:2:{i:0;a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}i:1;a:1:{s:7:"attribs";a:3:{s:4:"from";s:13:"@api_version@";s:2:"to";s:11:"api-version";s:4:"type";s:12:"package-info";}}}}i:21;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"13cf7dbaa47942293f14e3f5c8b633f1";s:4:"name";s:22:"tests/TestListener.php";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}}i:22;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"bdb58577bae9ea9ac7ef84e36087ac06";s:4:"name";s:17:"tests/phpunit.xml";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:10:"@test_dir@";s:2:"to";s:8:"test_dir";s:4:"type";s:11:"pear-config";}}}i:23;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"44be5c6f33b217d75eacf2935a0f4a1f";s:4:"name";s:20:"tests/stylesheet.css";s:4:"role";s:4:"test";}}i:24;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"13cf7dbaa47942293f14e3f5c8b633f1";s:4:"name";s:22:"tests/TestListener.php";s:4:"role";s:4:"test";}s:13:"tasks:replace";a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}}i:25;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"751d98031afaa4b51ed10b64429e0c57";s:4:"name";s:9:"ChangeLog";s:4:"role";s:3:"doc";}}i:26;a:2:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"65563b0a4e9ef702dd87a320647971ad";s:4:"name";s:7:"CSS.php";s:4:"role";s:3:"php";}s:13:"tasks:replace";a:2:{i:0;a:1:{s:7:"attribs";a:3:{s:4:"from";s:17:"@package_version@";s:2:"to";s:7:"version";s:4:"type";s:12:"package-info";}}i:1;a:1:{s:7:"attribs";a:3:{s:4:"from";s:13:"@api_version@";s:2:"to";s:11:"api-version";s:4:"type";s:12:"package-info";}}}}}}}s:12:"dependencies";a:2:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.5.4";}s:7:"package";a:3:{s:4:"name";s:11:"HTML_Common";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.2.4";}s:9:"extension";a:1:{s:4:"name";s:4:"pcre";}}s:8:"optional";a:1:{s:7:"package";a:3:{i:0;a:2:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";}i:1;a:3:{s:4:"name";s:25:"Services_W3C_CSSValidator";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"0.1.0";}i:2;a:3:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:15:"pear.phpunit.de";s:3:"min";s:5:"3.2.0";}}}}s:10:"phprelease";s:0:"";s:9:"changelog";a:1:{s:7:"release";a:23:{i:0;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.5.4";s:3:"api";s:5:"1.5.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2009-07-04";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:571:"Changes
+- createAtRule signature changed : add optional duplicates parameter
+
+Bug fixes
+- 16354 : Does not parse multiple simple At-rules properly
+- 16355 : Simple at rules nested within other at rules are reported as top level at rules
+- 16357 : Multiple equal complex at rules not parsed correctly
+- 16358 : Multiple media types on media at rule not parsed correctly
+- 16359 : Multiple selectors on a single rule inside a complex at rule not properly parsed
+- 16360 : Multiple selectors inside a complex at rule not properly parsed
+
+Last action as active package leader";}i:1;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.5.3";s:3:"api";s:5:"1.5.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2009-01-21";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:60:"* QA
+- prevent wrong usage of setSameStyle(); see bug #15690";}i:2;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.5.2";s:3:"api";s:5:"1.5.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2009-01-20";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:192:"* QA
+- fix minor notice errors
+- implement Mock Object (PHPUnit feature) to replace call to W3C CSS Validator Web Service
+- add many new unit test cases to improve code coverage from 77 to 96%";}i:3;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.5.1";s:3:"api";s:5:"1.5.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2008-03-15";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:130:"* bugs
+- fix bug #12996 : Call-time pass-by-reference has been deprecated
+- fix bug #13314 : Notice error raised on parsing string";}i:4;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.5.0";s:3:"api";s:5:"1.5.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2008-01-15";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:418:"* changes
+- copyright year bump
+
+* news
+- implement request #12194 : support of At-Rules
+- add new function getOptions() to retrieve easily all configuration options at once
+- add new function validate() to check data source with W3C CSS validator service.
+  Require PHP5. See file examples/CSS_validate.php
+
+* QA
+- User Guide (HTML version) included in previous versions was removed, since
+its now part of PEAR manual";}i:5;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.4.0";s:3:"api";s:5:"1.4.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2007-12-14";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:921:"* changes
+- removed old class (private) properties related to options ($_xhtmlCompliant,
+  $_cache, $_singleLine, $_charset, $_contentDisposition, $_groupsFirst,
+  $_allowDuplicates), now group by in a private array $options.
+- added class constructor (ZE2) for PHP5.
+- Error handler allow now to use PEAR_ERROR_CALLBACK to customize action
+  (log yes/no, print yes/no) when an error/exception is raised.
+- remove trailing EOL in toString() output (with oneline option set to true)
+
+* news
+- API 1.4.0 allow now a setter/getter PHP5 facility compatible
+  (magic function __set, __get) for read/write CSS options.
+
+* QA
+- PHP minimum set to 4.3.0
+- PEAR installer minimum set to 1.5.4 (to avoid security vulnerability)
+- Coding Standard fixes (recommandation by PHP_CodeSniffer)
+- tests suite migrated from PHPUnit 1.x to 3.x
+- User Guide 1.4.0 included in this release cover all versions
+1.x.x, 1.1.x, 1.2.x, 1.3.x, 1.4.x";}i:6;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.3.0";s:3:"api";s:5:"1.3.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2007-10-22";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:238:"* changes
+- prevent invalide CSS data source in to parse
+
+* news
+- add Content-Disposition to the headers in display(); implement request #12195
+
+* QA
+User Guide 1.3.0 included in this release cover all versions 1.x.x, 1.1.x, 1.2.x, 1.3.x";}i:7;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.2.0";s:3:"api";s:5:"1.2.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2007-06-12";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:50:"http://www.opensource.org/licenses/bsd-license.php";}s:8:"_content";s:3:"BSD";}s:5:"notes";s:203:"* changes
+- No code changes since previous release, but license changed
+from PHP 3.01 to new BSD (give more freedom)
+
+* QA
+User Guide 1.2.0 included in this release cover all versions 1.x.x, 1.1.x, 1.2.x";}i:8;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.1.3";s:3:"api";s:5:"1.1.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2007-02-18";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:35:"http://www.php.net/license/3_01.txt";}s:8:"_content";s:16:"PHP License 3.01";}s:5:"notes";s:169:"* bugs
+- fixed typo error in "oneline" attribute used with class constructor (Bug #10103)
+
+* QA
+User Guide 1.1.3 included in this release cover all versions 1.x.x, 1.1.x";}i:9;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.1.2";s:3:"api";s:5:"1.1.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2007-01-03";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:35:"http://www.php.net/license/3_01.txt";}s:8:"_content";s:16:"PHP License 3.01";}s:5:"notes";s:192:"* bugs
+- fixed error into grepStyle() method : conflict between goup (alibis) and simple element
+
+* QA
+User Guide 1.1.0 included in this release cover also versions 1.1.1 and 1.1.2 (bug fixes)";}i:10;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.1.1";s:3:"api";s:5:"1.1.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2007-01-01";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:35:"http://www.php.net/license/3_01.txt";}s:8:"_content";s:16:"PHP License 3.01";}s:5:"notes";s:141:"* bugs
+- it was impossible to use isError() in cascade with version 1.1.0
+- fixed version number on license declared and used in CSS.php file";}i:11;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.1.0";s:3:"api";s:5:"1.1.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2006-12-30";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:35:"http://www.php.net/license/3_01.txt";}s:8:"_content";s:16:"PHP License 3.01";}s:5:"notes";s:320:"* news
+- add new feature : ability to search if an element/property is defined or not
+- upgraded copyright notice to new year 2007
+
+* QA
+- add new example CSS_grepStyles.php for function grepStyle()
+- include a new revision of User Guide (TDG).
+  see http://pear.laurent-laville.org/HTML_CSS for more format to download.";}i:12;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.0.1";s:3:"api";s:5:"1.0.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2006-12-21";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:35:"http://www.php.net/license/3_01.txt";}s:8:"_content";s:16:"PHP License 3.01";}s:5:"notes";s:157:"- fix a bug with HTML_CSS::isError() method
+- drop support of package xml 1.0; Now we must have at least PEAR 1.4.3
+- License change from PHP 3.0 to PHP 3.01";}i:13;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.0.0";s:3:"api";s:5:"1.0.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2006-06-24";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:432:"After 2 releases candidate and no bug reported since 6 months, it's time to build the final stable version 1.0.0
+
+* Improvements
+- add @ignore phpdoc tag in all unit tests to hide them in API doc generation.
+- introduces package xml 2.0
+
+* Quality Assurance
+- header comment blocks were updated (copyright dates, ...)
+- include a user-guide in html format (others format to download on http://pear.laurent-laville.org/HTML_CSS/docs)";}i:14;a:5:{s:7:"version";a:2:{s:7:"release";s:8:"1.0.0RC2";s:3:"api";s:8:"1.0.0RC2";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2005-12-15";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:207:"New features:
+- parseData() : Ability to parse multiple data sources (filename, string) at once
+- isError() : Tell whether a value return by HTML_CSS is an error.
+
+See new script:  examples/CSS_parseData.php";}i:15;a:5:{s:7:"version";a:2:{s:7:"release";s:8:"1.0.0RC1";s:3:"api";s:8:"1.0.0RC1";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2005-07-26";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:892:"New features:
+- PEAR_ErrorStack was replaced by a simple way to plug in any error handling system you might want (default used PEAR_Error object)
+- Duplicate properties can now be allowed.
+
+Bug fixes
+- Allows to fix a HTML_Progress problem (bug #2784)
+- Inappropriate style rule reordering (bug #3920)
+
+Changes
+- Removes PEAR_ErrorStack and Log packages dependencies
+- All unitTests are now fully PEAR_Error compatible
+- apiVersion() returns now a string rather than a float; compatible with php.version_compare()
+- createGroup() always returns a value now
+- parseSelectors() status goes from public to protected
+- collapseInternalSpaces() status goes from public to protected
+- setSameStyle() is now optimized and single old reference is removed from CSS declarations
+- toArray reimplemented (API changed if duplicates allowed)
+
+Quality Assurance
+- Updates headers comment block on all files";}i:16;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.4.0";s:3:"api";s:5:"0.4.0";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2004-11-21";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:424:"New features:
+* Removes PEAR_ErrorStack and Log packages dependencies
+* Uses the basic error handler PEAR_Error (see examples/CSS_Logger.php)
+
+Bug fixes
+* Allows to fix a HTML_Progress problem (see bug #2784)
+
+Changes
+* Adds testcase for setXhtmlCompliance API
+* All unitTests are now fully PEAR_Error compatible
+
+Quality Assurance
+* This release follows the rules defined at
+* http://pear.php.net/group/docs/20040226-vn.php";}i:17;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.3.4";s:3:"api";s:5:"0.3.4";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2004-05-21";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:261:"New features:
+* Added testcases for all bugs (Laurent)
+
+Bugfixes:
+* Added dependency on PEAR 1.3.1 or greater (necessary for error handling)
+* Compatibility fix for PHP5 in parseSelectors
+* Now parseSelectors correctly divides selectors with IDs (output mode 2)";}i:18;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.3.3";s:3:"api";s:5:"0.3.3";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2004-05-20";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:281:"New features:
+* New error implementation (PEAR_Error_Stack) (Laurent)
+* Added more testcases (Laurent)
+* Output definitions on single line
+
+Bugfixes:
+* #1072 (incomplete internal inheritance support in parseString and getStyle)
+* #1084 (parseSelectors unable to handle inheritance)";}i:19;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.3.2";s:3:"api";s:5:"0.3.2";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2004-03-24";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:447:"New features:
+* setXhtmlCompliance(bool)
+    Determines whether elements are automatically lowercased
+    for XHTML compliance. May also be passed to class constructor
+    as array element 'xhtml'.
+* Selectors are now properly parsed to ensure compliance
+
+Bugfixes:
+* #725  (Elements differentiated because of whitespace)
+* #998  (parseString failure to parse property value when it contained a colon)
+* #1066 (Trim property values in parseString)";}i:20;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.3.1";s:3:"api";s:5:"0.3.1";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2003-11-03";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:374:"Warning:
+Major BC break!
+
+License change:
+Now PHP License 3.0
+
+New features:
+* Parse CSS from string (Laurent)
+* Read and parse CSS from file (Laurent)
+* Retrieve the settings of individual properties (Laurent)
+* Fully redesigned group handling
+* Output to file
+* Error handling introduced (Laurent)
+* Added unit tests (Laurent)
+
+Bugfixes:
+* Fixed setSameStyle functionality";}i:21;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.3.0";s:3:"api";s:5:"0.3.0";}s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:4:"date";s:10:"2003-11-03";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:34:"http://www.php.net/license/3_0.txt";}s:8:"_content";s:15:"PHP License 3.0";}s:5:"notes";s:358:"Warning:
+Major BC break!
+
+License change:
+Now PHP License 3.0
+
+New features:
+* Parse CSS from string (Laurent)
+* Read and parse CSS from file (Laurent)
+* Retrieve the settings of individual properties (Laurent)
+* Fully redesigned group handling
+* Output to file
+* Error handling introduced (Laurent)
+* Added unit tests (Laurent)
+
+Bugfixes:
+* Examples updated";}i:22;a:5:{s:7:"version";a:2:{s:7:"release";s:5:"0.2.0";s:3:"api";s:5:"0.2.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2003-07-31";s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:35:"http://www.php.net/license/2_02.txt";}s:8:"_content";s:16:"PHP License 2.02";}s:5:"notes";s:293:"It is completely standards compliant, and has some great features:
+* Inline stylesheet declarations
+* Document internal stylesheet declarations
+* Standalone stylesheet declarations
+
+In addition, it shares the following with HTML_Common based classes:
+* Indent style support
+* Line ending style";}}}s:8:"filelist";a:26:{s:13:"CSS/Error.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"4c81a521793091a32c447c06f6b1c097";s:4:"name";s:13:"CSS/Error.php";s:4:"role";s:3:"php";s:12:"installed_as";s:68:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML/CSS/Error.php";}s:25:"examples/CSS_Advanced.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"1543a31121e351f8cf0eb1c5bc5e4685";s:4:"name";s:25:"examples/CSS_Advanced.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_Advanced.php";}s:30:"examples/CSS_DisplayOnline.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"bbd42307855c479fc167bcf431a1749b";s:4:"name";s:30:"examples/CSS_DisplayOnline.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:94:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_DisplayOnline.php";}s:34:"examples/css_errorstack_custom.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"269cc7e3f96bcf024e7331ee52776055";s:4:"name";s:34:"examples/css_errorstack_custom.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:98:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/css_errorstack_custom.php";}s:34:"examples/css_errorstack_logger.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"b15d27c57162eed9139799f9046f73ea";s:4:"name";s:34:"examples/css_errorstack_logger.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:98:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/css_errorstack_logger.php";}s:29:"examples/css_error_custom.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"d5063c0b92e4408932d8a150a33d8354";s:4:"name";s:29:"examples/css_error_custom.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:93:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/css_error_custom.php";}s:29:"examples/css_error_ignore.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"0c179d0d57fbdffd012f3493ac580c0b";s:4:"name";s:29:"examples/css_error_ignore.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:93:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/css_error_ignore.php";}s:29:"examples/css_error_logger.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"c8dc6b11406facb7ed0f19c8f01f753f";s:4:"name";s:29:"examples/css_error_logger.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:93:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/css_error_logger.php";}s:27:"examples/CSS_grepStyles.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"44342f3bd3e570e58e18ce5f6c854e19";s:4:"name";s:27:"examples/CSS_grepStyles.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:91:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_grepStyles.php";}s:25:"examples/CSS_InHeader.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"03c48c69c2565b088ea58d96dbfa13cf";s:4:"name";s:25:"examples/CSS_InHeader.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_InHeader.php";}s:23:"examples/CSS_Inline.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"1036574f501c154361e76f13209f6694";s:4:"name";s:23:"examples/CSS_Inline.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:87:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_Inline.php";}s:23:"examples/CSS_Logger.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"749d8d20488cdad8244bee6b4f9733cc";s:4:"name";s:23:"examples/CSS_Logger.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:87:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_Logger.php";}s:26:"examples/CSS_parseData.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"2308abf78460db031f0fade6022b2a08";s:4:"name";s:26:"examples/CSS_parseData.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:90:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_parseData.php";}s:36:"examples/CSS_req12194_atrule_api.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"08facf95c0f17e00fc016d3d59c80c4a";s:4:"name";s:36:"examples/CSS_req12194_atrule_api.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:100:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_req12194_atrule_api.php";}s:39:"examples/CSS_req12194_atrule_parser.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"f1705159532bda8ee3ce3796371cf23a";s:4:"name";s:39:"examples/CSS_req12194_atrule_parser.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:103:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_req12194_atrule_parser.php";}s:27:"examples/CSS_Stylesheet.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"187c9e50f3595429370cdd2308b0a145";s:4:"name";s:27:"examples/CSS_Stylesheet.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:91:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_Stylesheet.php";}s:25:"examples/CSS_validate.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"50095673510865cca6c36e7b577334ed";s:4:"name";s:25:"examples/CSS_validate.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples/CSS_validate.php";}s:18:"tests/AllTests.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"41a35f74b30f939138e06929793208c5";s:4:"name";s:18:"tests/AllTests.php";s:4:"role";s:4:"test";s:12:"installed_as";s:82:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/AllTests.php";}s:33:"tests/HTML_CSS_TestSuite_Bugs.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"13d42193dfa686ca4524677650dbe7f2";s:4:"name";s:33:"tests/HTML_CSS_TestSuite_Bugs.php";s:4:"role";s:4:"test";s:12:"installed_as";s:97:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/HTML_CSS_TestSuite_Bugs.php";}s:35:"tests/HTML_CSS_TestSuite_Output.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"2e66fc3c677ff212a847416d2ab8a2f2";s:4:"name";s:35:"tests/HTML_CSS_TestSuite_Output.php";s:4:"role";s:4:"test";s:12:"installed_as";s:99:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/HTML_CSS_TestSuite_Output.php";}s:37:"tests/HTML_CSS_TestSuite_Standard.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"f2fc90f4afde8c76f5a4e0e9a94a94f6";s:4:"name";s:37:"tests/HTML_CSS_TestSuite_Standard.php";s:4:"role";s:4:"test";s:12:"installed_as";s:101:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/HTML_CSS_TestSuite_Standard.php";}s:22:"tests/TestListener.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"13cf7dbaa47942293f14e3f5c8b633f1";s:4:"name";s:22:"tests/TestListener.php";s:4:"role";s:4:"test";s:12:"installed_as";s:86:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/TestListener.php";}s:17:"tests/phpunit.xml";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"490bb8b5b84a80ef3c4c80f739c9adda";s:4:"name";s:17:"tests/phpunit.xml";s:4:"role";s:4:"test";s:12:"installed_as";s:81:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/phpunit.xml";}s:20:"tests/stylesheet.css";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"44be5c6f33b217d75eacf2935a0f4a1f";s:4:"name";s:20:"tests/stylesheet.css";s:4:"role";s:4:"test";s:12:"installed_as";s:84:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests/stylesheet.css";}s:9:"ChangeLog";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"751d98031afaa4b51ed10b64429e0c57";s:4:"name";s:9:"ChangeLog";s:4:"role";s:3:"doc";s:12:"installed_as";s:73:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/ChangeLog";}s:7:"CSS.php";a:5:{s:14:"baseinstalldir";s:4:"HTML";s:6:"md5sum";s:32:"65563b0a4e9ef702dd87a320647971ad";s:4:"name";s:7:"CSS.php";s:4:"role";s:3:"php";s:12:"installed_as";s:62:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML/CSS.php";}}s:12:"_lastversion";N;s:7:"dirtree";a:6:{s:58:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML/CSS";b:1;s:54:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML";b:1;s:72:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS/examples";b:1;s:63:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS";b:1;s:69:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS/tests";b:1;s:63:"/Users/takahashi/Projects/yammer/app/vendors/pear/test/HTML_CSS";b:1;}s:3:"old";a:7:{s:7:"version";s:5:"1.5.4";s:12:"release_date";s:10:"2009-07-04";s:13:"release_state";s:6:"stable";s:15:"release_license";s:3:"BSD";s:13:"release_notes";s:571:"Changes
+- createAtRule signature changed : add optional duplicates parameter
+
+Bug fixes
+- 16354 : Does not parse multiple simple At-rules properly
+- 16355 : Simple at rules nested within other at rules are reported as top level at rules
+- 16357 : Multiple equal complex at rules not parsed correctly
+- 16358 : Multiple media types on media at rule not parsed correctly
+- 16359 : Multiple selectors on a single rule inside a complex at rule not properly parsed
+- 16360 : Multiple selectors inside a complex at rule not properly parsed
+
+Last action as active package leader";s:12:"release_deps";a:7:{i:0;a:4:{s:4:"type";s:3:"php";s:3:"rel";s:2:"ge";s:7:"version";s:5:"4.3.0";s:8:"optional";s:2:"no";}i:1;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:4:"PEAR";s:3:"rel";s:2:"ge";s:7:"version";s:5:"1.5.4";s:8:"optional";s:2:"no";}i:2;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:11:"HTML_Common";s:3:"rel";s:2:"ge";s:7:"version";s:5:"1.2.4";s:8:"optional";s:2:"no";}i:3;a:4:{s:4:"type";s:3:"ext";s:4:"name";s:4:"pcre";s:3:"rel";s:3:"has";s:8:"optional";s:2:"no";}i:4;a:5:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:4:"PEAR";s:3:"rel";s:3:"has";s:8:"optional";s:3:"yes";}i:5;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:25:"Services_W3C_CSSValidator";s:3:"rel";s:2:"ge";s:7:"version";s:5:"0.1.0";s:8:"optional";s:3:"yes";}i:6;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:15:"pear.phpunit.de";s:4:"name";s:7:"PHPUnit";s:3:"rel";s:2:"ge";s:7:"version";s:5:"3.2.0";s:8:"optional";s:3:"yes";}}s:11:"maintainers";a:2:{i:0;a:5:{s:4:"name";s:14:"Klaus Guenther";s:5:"email";s:22:"klaus@capitalfocus.org";s:6:"active";s:2:"no";s:6:"handle";s:7:"thesaur";s:4:"role";s:4:"lead";}i:1;a:5:{s:4:"name";s:15:"Laurent Laville";s:5:"email";s:24:"pear@laurent-laville.org";s:6:"active";s:2:"no";s:6:"handle";s:6:"farell";s:4:"role";s:4:"lead";}}}s:10:"xsdversion";s:3:"2.0";s:13:"_lastmodified";i:1301812616;}

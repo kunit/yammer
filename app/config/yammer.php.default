@@ -1,0 +1,5 @@
+<?php
+Configure::write('Yammer.oauth_mail_from', 'SET ADMIN MAIL');
+Configure::write('Yammer.oauth_mail_subject', 'Yammer認証 確認メール');
+Configure::write('Yammer.oauth_key', 'SET YOUR OAUTH KEY');
+Configure::write('Yammer.oauth_secret', 'SET YOUR OAUTH SECRET');

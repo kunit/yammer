@@ -1,0 +1,162 @@
+a:22:{s:7:"attribs";a:6:{s:15:"packagerversion";s:5:"1.8.1";s:7:"version";s:3:"2.0";s:5:"xmlns";s:35:"http://pear.php.net/dtd/package-2.0";s:11:"xmlns:tasks";s:33:"http://pear.php.net/dtd/tasks-1.0";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:18:"xsi:schemaLocation";s:159:"http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd";}s:4:"name";s:15:"HTML_CSS_Mobile";s:7:"channel";s:12:"openpear.org";s:7:"summary";s:508:"このライブラリは、
+- <link>タグからの外部CSS
+- <script></script>タグ内記述CSS
+- スクリプト上からの外部ファイル
+とかとかCSSファイル/記述を展開し、inlineのstyle要素に埋め込んでくれます。
+
+諸事情からものすごくバージョンが上がってstableになりました。
+これからどんどんupして行って、ケータイのHTML/CSSのバッドノウハウを吸収できる緩衝材になればいいなと思って作ってます。";s:11:"description";s:508:"このライブラリは、
+- <link>タグからの外部CSS
+- <script></script>タグ内記述CSS
+- スクリプト上からの外部ファイル
+とかとかCSSファイル/記述を展開し、inlineのstyle要素に埋め込んでくれます。
+
+諸事情からものすごくバージョンが上がってstableになりました。
+これからどんどんupして行って、ケータイのHTML/CSSのバッドノウハウを吸収できる緩衝材になればいいなと思って作ってます。";s:4:"lead";a:2:{i:0;a:4:{s:4:"name";s:15:"Sotaro KARASAWA";s:4:"user";s:7:"sotarok";s:5:"email";s:23:"sotaro.k+pear@gmail.com";s:6:"active";s:3:"yes";}i:1;a:4:{s:4:"name";s:25:"yudoufu (Daichi Kamemoto)";s:4:"user";s:7:"yudoufu";s:5:"email";s:17:"daikame@gmail.com";s:6:"active";s:3:"yes";}}s:4:"date";s:10:"2010-05-07";s:4:"time";s:8:"00:32:12";s:7:"version";a:2:{s:7:"release";s:5:"1.8.0";s:3:"api";s:5:"1.8.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"license";s:11:"MIT License";s:5:"notes";s:2234:"------------------------------------------------------------------------
+r1826 | yudoufu | 2010-05-07 00:27:01 +0900 (金, 07  5月 2010) | 1 line
+
+fix version number
+------------------------------------------------------------------------
+r1825 | yudoufu | 2010-05-07 00:22:30 +0900 (金, 07  5月 2010) | 1 line
+
+fix libxml error no display
+------------------------------------------------------------------------
+r1821 | yudoufu | 2010-05-05 01:39:23 +0900 (水, 05  5月 2010) | 1 line
+
+fix <br />tag bug
+------------------------------------------------------------------------
+r1820 | yudoufu | 2010-05-05 00:18:13 +0900 (水, 05  5月 2010) | 1 line
+
+patches cdata bug and without css bug thanks for MugeSo
+------------------------------------------------------------------------
+r1362 | gusagi | 2009-11-01 21:23:57 +0900 (日, 01 11月 2009) | 1 line
+
+~CSSの内容gが文字列以外だった場合の処理を追加
+------------------------------------------------------------------------
+r808 | yudoufu | 2009-05-10 05:44:20 +0900 (日, 10  5月 2009) | 1 line
+
+サンプルも丸ごと移動
+------------------------------------------------------------------------
+r807 | yudoufu | 2009-05-10 05:43:13 +0900 (日, 10  5月 2009) | 1 line
+
+unset externals
+------------------------------------------------------------------------
+r806 | yudoufu | 2009-05-10 05:40:15 +0900 (日, 10  5月 2009) | 1 line
+
+HTML_CSS_Mobileをリポジトリまるごと移動
+------------------------------------------------------------------------
+r805 | yudoufu | 2009-05-10 05:36:01 +0900 (日, 10  5月 2009) | 1 line
+
+unset externals
+------------------------------------------------------------------------
+r377 | sotarok | 2009-01-30 02:53:30 +0900 (金, 30  1月 2009) | 2 lines
+
+ * ディレクトリの整理など
+
+------------------------------------------------------------------------
+r371 | sotarok | 2009-01-29 23:36:25 +0900 (木, 29  1月 2009) | 1 line
+
+ * add prop
+------------------------------------------------------------------------
+r370 | openpear | 2009-01-29 23:32:22 +0900 (木, 29  1月 2009) | 1 line
+
+[Create Base Directory] HTML_CSS_Mobile
+------------------------------------------------------------------------";s:8:"contents";a:1:{s:3:"dir";a:2:{s:7:"attribs";a:2:{s:14:"baseinstalldir";s:1:"/";s:4:"name";s:1:"/";}s:4:"file";a:9:{i:0;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"84095c2ccb01c944ab03891be00ff27f";s:4:"name";s:19:"HTML/CSS/Mobile.php";s:4:"role";s:3:"php";}}i:1;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"2a44347c4180a80e7d4b6b64c19cb2c6";s:4:"name";s:17:"sample/nocss.html";s:4:"role";s:3:"doc";}}i:2;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"e9136e89b7d99f11a11ddac83d617e5d";s:4:"name";s:17:"sample/sample.css";s:4:"role";s:4:"data";}}i:3;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"f25e04a2e8012f56350699323cfd2661";s:4:"name";s:18:"sample/sample.html";s:4:"role";s:3:"doc";}}i:4;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"0020815aa275eacc21dcf2a20769c03d";s:4:"name";s:17:"sample/sample.php";s:4:"role";s:3:"php";}}i:5;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"8161922331f3740e9ae32d68a7edd339";s:4:"name";s:18:"sample/sample2.css";s:4:"role";s:4:"data";}}i:6;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"4afc4787c7fde1406530149edd1f111e";s:4:"name";s:18:"sample/sample3.css";s:4:"role";s:4:"data";}}i:7;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"d7699184368f5af45ceb17712b592ec7";s:4:"name";s:18:"sample/sample4.css";s:4:"role";s:4:"data";}}i:8;a:1:{s:7:"attribs";a:4:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"16247c8424c577112ba7ba9e206073e6";s:4:"name";s:18:"sample/sample5.css";s:4:"role";s:4:"data";}}}}}s:12:"dependencies";a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.8.0";}s:7:"package";a:2:{i:0;a:2:{s:4:"name";s:8:"HTML_CSS";s:7:"channel";s:12:"pear.php.net";}i:1;a:2:{s:4:"name";s:23:"HTML_CSS_Selector2XPath";s:7:"channel";s:12:"openpear.org";}}}}s:10:"phprelease";s:0:"";s:9:"changelog";a:1:{s:7:"release";a:5:{s:7:"version";a:2:{s:7:"release";s:5:"1.8.0";s:3:"api";s:5:"1.8.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:4:"date";s:10:"2010-05-07";s:7:"license";s:11:"MIT License";s:5:"notes";s:2234:"------------------------------------------------------------------------
+r1826 | yudoufu | 2010-05-07 00:27:01 +0900 (金, 07  5月 2010) | 1 line
+
+fix version number
+------------------------------------------------------------------------
+r1825 | yudoufu | 2010-05-07 00:22:30 +0900 (金, 07  5月 2010) | 1 line
+
+fix libxml error no display
+------------------------------------------------------------------------
+r1821 | yudoufu | 2010-05-05 01:39:23 +0900 (水, 05  5月 2010) | 1 line
+
+fix <br />tag bug
+------------------------------------------------------------------------
+r1820 | yudoufu | 2010-05-05 00:18:13 +0900 (水, 05  5月 2010) | 1 line
+
+patches cdata bug and without css bug thanks for MugeSo
+------------------------------------------------------------------------
+r1362 | gusagi | 2009-11-01 21:23:57 +0900 (日, 01 11月 2009) | 1 line
+
+~CSSの内容gが文字列以外だった場合の処理を追加
+------------------------------------------------------------------------
+r808 | yudoufu | 2009-05-10 05:44:20 +0900 (日, 10  5月 2009) | 1 line
+
+サンプルも丸ごと移動
+------------------------------------------------------------------------
+r807 | yudoufu | 2009-05-10 05:43:13 +0900 (日, 10  5月 2009) | 1 line
+
+unset externals
+------------------------------------------------------------------------
+r806 | yudoufu | 2009-05-10 05:40:15 +0900 (日, 10  5月 2009) | 1 line
+
+HTML_CSS_Mobileをリポジトリまるごと移動
+------------------------------------------------------------------------
+r805 | yudoufu | 2009-05-10 05:36:01 +0900 (日, 10  5月 2009) | 1 line
+
+unset externals
+------------------------------------------------------------------------
+r377 | sotarok | 2009-01-30 02:53:30 +0900 (金, 30  1月 2009) | 2 lines
+
+ * ディレクトリの整理など
+
+------------------------------------------------------------------------
+r371 | sotarok | 2009-01-29 23:36:25 +0900 (木, 29  1月 2009) | 1 line
+
+ * add prop
+------------------------------------------------------------------------
+r370 | openpear | 2009-01-29 23:32:22 +0900 (木, 29  1月 2009) | 1 line
+
+[Create Base Directory] HTML_CSS_Mobile
+------------------------------------------------------------------------";}}s:8:"filelist";a:9:{s:19:"HTML/CSS/Mobile.php";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"84095c2ccb01c944ab03891be00ff27f";s:4:"name";s:19:"HTML/CSS/Mobile.php";s:4:"role";s:3:"php";s:12:"installed_as";s:69:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML/CSS/Mobile.php";}s:17:"sample/nocss.html";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"2a44347c4180a80e7d4b6b64c19cb2c6";s:4:"name";s:17:"sample/nocss.html";s:4:"role";s:3:"doc";s:12:"installed_as";s:88:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/nocss.html";}s:17:"sample/sample.css";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"e9136e89b7d99f11a11ddac83d617e5d";s:4:"name";s:17:"sample/sample.css";s:4:"role";s:4:"data";s:12:"installed_as";s:88:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/sample.css";}s:18:"sample/sample.html";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"f25e04a2e8012f56350699323cfd2661";s:4:"name";s:18:"sample/sample.html";s:4:"role";s:3:"doc";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/sample.html";}s:17:"sample/sample.php";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"0020815aa275eacc21dcf2a20769c03d";s:4:"name";s:17:"sample/sample.php";s:4:"role";s:3:"php";s:12:"installed_as";s:67:"/Users/takahashi/Projects/yammer/app/vendors/pear/sample/sample.php";}s:18:"sample/sample2.css";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"8161922331f3740e9ae32d68a7edd339";s:4:"name";s:18:"sample/sample2.css";s:4:"role";s:4:"data";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/sample2.css";}s:18:"sample/sample3.css";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"4afc4787c7fde1406530149edd1f111e";s:4:"name";s:18:"sample/sample3.css";s:4:"role";s:4:"data";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/sample3.css";}s:18:"sample/sample4.css";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"d7699184368f5af45ceb17712b592ec7";s:4:"name";s:18:"sample/sample4.css";s:4:"role";s:4:"data";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/sample4.css";}s:18:"sample/sample5.css";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"16247c8424c577112ba7ba9e206073e6";s:4:"name";s:18:"sample/sample5.css";s:4:"role";s:4:"data";s:12:"installed_as";s:89:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample/sample5.css";}}s:12:"_lastversion";N;s:7:"dirtree";a:5:{s:58:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML/CSS";b:1;s:54:"/Users/takahashi/Projects/yammer/app/vendors/pear/HTML";b:1;s:77:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile/sample";b:1;s:70:"/Users/takahashi/Projects/yammer/app/vendors/pear/data/HTML_CSS_Mobile";b:1;s:56:"/Users/takahashi/Projects/yammer/app/vendors/pear/sample";b:1;}s:3:"old";a:7:{s:7:"version";s:5:"1.8.0";s:12:"release_date";s:10:"2010-05-07";s:13:"release_state";s:6:"stable";s:15:"release_license";s:11:"MIT License";s:13:"release_notes";s:2234:"------------------------------------------------------------------------
+r1826 | yudoufu | 2010-05-07 00:27:01 +0900 (金, 07  5月 2010) | 1 line
+
+fix version number
+------------------------------------------------------------------------
+r1825 | yudoufu | 2010-05-07 00:22:30 +0900 (金, 07  5月 2010) | 1 line
+
+fix libxml error no display
+------------------------------------------------------------------------
+r1821 | yudoufu | 2010-05-05 01:39:23 +0900 (水, 05  5月 2010) | 1 line
+
+fix <br />tag bug
+------------------------------------------------------------------------
+r1820 | yudoufu | 2010-05-05 00:18:13 +0900 (水, 05  5月 2010) | 1 line
+
+patches cdata bug and without css bug thanks for MugeSo
+------------------------------------------------------------------------
+r1362 | gusagi | 2009-11-01 21:23:57 +0900 (日, 01 11月 2009) | 1 line
+
+~CSSの内容gが文字列以外だった場合の処理を追加
+------------------------------------------------------------------------
+r808 | yudoufu | 2009-05-10 05:44:20 +0900 (日, 10  5月 2009) | 1 line
+
+サンプルも丸ごと移動
+------------------------------------------------------------------------
+r807 | yudoufu | 2009-05-10 05:43:13 +0900 (日, 10  5月 2009) | 1 line
+
+unset externals
+------------------------------------------------------------------------
+r806 | yudoufu | 2009-05-10 05:40:15 +0900 (日, 10  5月 2009) | 1 line
+
+HTML_CSS_Mobileをリポジトリまるごと移動
+------------------------------------------------------------------------
+r805 | yudoufu | 2009-05-10 05:36:01 +0900 (日, 10  5月 2009) | 1 line
+
+unset externals
+------------------------------------------------------------------------
+r377 | sotarok | 2009-01-30 02:53:30 +0900 (金, 30  1月 2009) | 2 lines
+
+ * ディレクトリの整理など
+
+------------------------------------------------------------------------
+r371 | sotarok | 2009-01-29 23:36:25 +0900 (木, 29  1月 2009) | 1 line
+
+ * add prop
+------------------------------------------------------------------------
+r370 | openpear | 2009-01-29 23:32:22 +0900 (木, 29  1月 2009) | 1 line
+
+[Create Base Directory] HTML_CSS_Mobile
+------------------------------------------------------------------------";s:12:"release_deps";a:4:{i:0;a:4:{s:4:"type";s:3:"php";s:3:"rel";s:2:"ge";s:7:"version";s:5:"5.1.0";s:8:"optional";s:2:"no";}i:1;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:4:"PEAR";s:3:"rel";s:2:"ge";s:7:"version";s:5:"1.8.0";s:8:"optional";s:2:"no";}i:2;a:5:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:8:"HTML_CSS";s:3:"rel";s:3:"has";s:8:"optional";s:2:"no";}i:3;a:5:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"openpear.org";s:4:"name";s:23:"HTML_CSS_Selector2XPath";s:3:"rel";s:3:"has";s:8:"optional";s:2:"no";}}s:11:"maintainers";a:2:{i:0;a:5:{s:4:"name";s:15:"Sotaro KARASAWA";s:5:"email";s:23:"sotaro.k+pear@gmail.com";s:6:"active";s:3:"yes";s:6:"handle";s:7:"sotarok";s:4:"role";s:4:"lead";}i:1;a:5:{s:4:"name";s:25:"yudoufu (Daichi Kamemoto)";s:5:"email";s:17:"daikame@gmail.com";s:6:"active";s:3:"yes";s:6:"handle";s:7:"yudoufu";s:4:"role";s:4:"lead";}}}s:10:"xsdversion";s:3:"2.0";s:13:"_lastmodified";i:1301812616;}

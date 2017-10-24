@@ -6,6 +6,10 @@
 
 PHP 5.2+
 
+## Getting Started
+
+http://d.hatena.ne.jp/kunit/20110410#1302445598
+
 ## Author
 
 TAKAHASHI Kunihiko ([kunit](http://twitter.com/kunit))

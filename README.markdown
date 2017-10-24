@@ -1,6 +1,6 @@
 # Yammer for Keitai
 
-Yammer(https://yammer.com)に日本の携帯端末からアクセスするためのゲートウェイサイトを構築するアプリ
+[Yammer](https://yammer.com) に日本の携帯端末からアクセスするためのゲートウェイサイトを構築するアプリ
 
 ## Require
 
